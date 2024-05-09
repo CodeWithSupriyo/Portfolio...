@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu";
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#navbar{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  padding: 2vw 0;
+  justify-content: space-between;
+  z-index: 5;
+}
+#main{
+  width: 100%;
+  height: 100vh;
+  margin:  0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-part2{
+  display: flex;
+  gap: 2vw
+}
+
+.nav-part2 li{
+  font-size: 1.4vw;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  decoration: none;
+}
+
+.nav-part2 li a{
+  text-decoration: none; 
+  color: black;
+  decoration:none;
+  transform: translateY(-50);
+  transition: transform 2s;
+  margin-right: 6vw
+}
+
+#nav-bottom{
+  height: 0%;
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  border-bottom: 2px solid #dadada;
+  transition: 0.5s all ease;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: white;
+  z-index: 5;
+}
+
+.bottom-div:nth-child(1){
+  margin-left: 26vw;
+}
+.bottom-div:nth-child(2){
+  margin-left: 6vw;
+}
+.bottom-div:nth-child(3){
+  margin-left: 4vw;
+}
+.bottom-div:nth-child(4){
+  margin-left: 4vw;
+}
+
+.bottom-div h5 span{
+  font-weight: 500;
+  font-size: 0.7vw;
+  display: none;
+}
+
+
+#navbar:hover  #nav-bottom{
+  height: 100%;
+  bottom: -100%;
+}
+#navbar:hover .bottom-div h5 span {
+  display: block;
+}
+
+
+.nav-part2 img {
+  display: none;
+}
+.page1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.name{
+  font-family:"Ubuntu";
+  font-weight: 800;
+  font-size: 3vw;
+  margin-left: 10%;
+}
+
+.main-element-of-page1{
+  font-family: "Ubuntu";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3vw;
+  margin-left: 5%;
+  color: #f43e65;
+  letter-spacing: 0px;
+  
+}
+
+
+.name2{
+  font-family:"Ubuntu";
+  font-weight: 800;
+  font-size: 3vw;
+  margin-left: 10%;
+}
+
+
+.img-in-page1{
+  display: flex;
+  justify-content: center;
+}
+
+
+img{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  right: 0;
+  transform: translateY(-50%);
+  transition: transform 2s;
+}
+
+.para{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-family: "Ubuntu";
+  font-weight: 500;
+  margin-top: 2vw;
+  padding-left: 50px;
+  padding-right: 500px;
+}
+
+.button-parent{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 12vmax;
+}
+
+.btn{
+  height: 50px;
+  width: 150px;
+  border-radius: 100px;
+  background-color:#8F04FF;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu";
+  font-weight: 500;
+  color: white;
+  transition: 2s;
+}
+
+
+.btn a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase
+}
+
+.btn:hover{
+  transform: scale(1.5);
+  background-color: #A94EF3;
+}
+
+.img-in-page1-for-mobile {
+  display: none;
+}
+
+.transition-svg{
+  aspect-ratio: 960/600;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 100px
+}
+
+.layer1{
+  background-image: url('/layered-waves-haikeisvg.svg')
+}
+
+@media (max-width:600px) {
+  .page1{
+    display: normal;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vmin;
+  }
+  
+  #navbar h1{
+    font-size: 6vw;
+    font-weight: 500;
+    margin-left: 2vw;
+  }
+  
+  .nav-part2 li{
+    display: none;
+  }
+  
+  .nav-part2 img{
+    width: 20px;
+    display: block;
+    align-items: center;
+    margin-top: 1vw;
+    margin-right: 5vw;
+    
+  }
+  #img1{
+    display:none;
+    justify-content: center;
+    top: 0;
+  }
+  
+  .name{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+  
+  .main-element-of-page1{
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    margin-left: 0
+  }
+  
+  #main-text{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .name2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0
+  }
+  
+  .para{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-family: "Ubuntu";
+    font-weight: 300;
+  }
+  
+  
+  .button-parent{
+    position: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .img-in-page1-for-mobile {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    top: 0;
+  }
+  #img2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    top: 110%;
+    right: 0%;
+    width: 100%
+  }
+  
+}
