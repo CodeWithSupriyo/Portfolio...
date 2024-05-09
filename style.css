@@ -349,7 +349,9 @@ img{
     top: 110%;
     right: 0%;
     width: 100%;
-    margin-top: 1500
+  }
+  .transition-svg{
+    margin-top: 100vw
   }
   
 }
