@@ -348,7 +348,8 @@ img{
     position: absolute;
     top: 110%;
     right: 0%;
-    width: 100%
+    width: 100%;
+    margin-top: 1500
   }
   
 }
