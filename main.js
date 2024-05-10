@@ -1,5 +1,5 @@
 const options = {
-  'damping' : 0.08
+  'damping' : 0.05
 }
 
 Scrollbar.init(document.querySelector('#main0'), options)
