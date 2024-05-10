@@ -1,7 +1,8 @@
 const options = {
   'damping' : 0.01
+  
 }
-
+"force:true"
 Scrollbar.init(document.querySelector('#main0'), options)
 
 function firstanimationoftheloafingpage() {
