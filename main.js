@@ -1,8 +1,4 @@
-const scroll = new LocomotiveScroll({
-  el: document.querySelector('#main0'),
-  smooth: true,
-  lerp: 0.07
-});
+
 
 function firstanimationoftheloafingpage() {
   const firstanimationoftheloafingpage = document.querySelector('.name')
