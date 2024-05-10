@@ -1,4 +1,8 @@
+const options = {
+  'damping' : 0.08
+}
 
+Scrollbar.init(document.querySelector('#main0'), options)
 
 function firstanimationoftheloafingpage() {
   const firstanimationoftheloafingpage = document.querySelector('.name')

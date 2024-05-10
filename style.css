@@ -4,10 +4,7 @@
   font-family: "Ubuntu";
 }
 
-body{
-  width: 100%;
-  height: 100vh;
-}
+
 .ubuntu-light {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -257,6 +254,12 @@ img{
 
 .layer1{
   background-image: url('/layered-waves-haikeisvg.svg')
+}
+
+.page2{
+  background-color: lightblue;
+  height: 100vh;
+  width: 100%;
 }
 
 @media (max-width:600px) {
