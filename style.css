@@ -261,12 +261,34 @@ img{
   width: 100%;
 }
 
+.blob-HTML{
+  background-image: url('/blob.svg');
+  aspect-ratio: 960/600;
+  width: 100%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 75px;
+  align-items: center;
+  justify-content: center;
+}
+
+.HTML-services{
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
 @media (max-width:600px) {
   .page1{
     display: normal;
     justify-content: center;
     align-items: center;
     margin-top: 30vmin;
+    height: 15vh
   }
   
   #navbar h1{
@@ -356,4 +378,7 @@ img{
     margin-top: 100vw
   }
   
+  .page2{
+    height: 165vh;
+  }
 }

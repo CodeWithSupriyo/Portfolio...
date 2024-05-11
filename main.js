@@ -70,6 +70,18 @@ function navbarPart2Animation() {
   })
 }
 
+gsap.registerPlugin(ScrollTrigger)
+
+function htmlServices() {
+  gsap.from(".HTML-services h2", {
+    scrollTrigger: ".HTML-services h2",
+    y: 100,
+    opacity: 0,
+    delay: 0.1,
+    duration: 1,
+  })
+}
+
 //caling the func
 firstanimationoftheloafingpage()
 mainTextAnimationOnPage1()
@@ -78,3 +90,4 @@ paraAnimationoftheloadingpage()
 imgLoadingAnimation()
 navbarMainElementAnimation()
 navbarPart2Animation()
+htmlServices()
