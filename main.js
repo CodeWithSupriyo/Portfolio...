@@ -82,6 +82,26 @@ function htmlServices() {
   })
 }
 
+function cssServices() {
+  gsap.from(".CSS-services h2", {
+    scrollTrigger: ".CSS-services h2",
+    y: 100,
+    opacity: 0,
+    delay: 0.1,
+    duration: 1,
+  })
+}
+
+function jsServices() {
+  gsap.from(".JS-services h2", {
+    scrollTrigger: ".JS-services h2",
+    y: 100,
+    opacity: 0,
+    delay: 0.1,
+    duration: 1,
+  })
+}
+
 //caling the func
 firstanimationoftheloafingpage()
 mainTextAnimationOnPage1()
@@ -91,3 +111,5 @@ imgLoadingAnimation()
 navbarMainElementAnimation()
 navbarPart2Animation()
 htmlServices()
+cssServices()
+jsServices()
