@@ -321,6 +321,22 @@ img{
   letter-spacing: 2px;
 }
 
+.flip{
+  transform: rotate(180deg);
+  margin-top: 50px;
+  z-index: -1;
+}
+
+.page2 h1{
+  color: #fff;
+  z-index: 100000000000000000000000;
+  background-color: #c62368;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-size: 100px
+}
+
 @media (max-width:600px) {
   .page1{
     display: normal;
