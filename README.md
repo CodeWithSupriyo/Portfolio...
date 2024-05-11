@@ -21,7 +21,7 @@ https://portfolio-supriyo-web-dev.netlify.app/
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_github_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)]()
+[![portfolio](https://img.shields.io/badge/my_github_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/CodeWithSupriyo/CodeWithSupriyo)
 
 
 ## Feedback
