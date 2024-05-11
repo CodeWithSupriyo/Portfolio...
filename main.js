@@ -102,6 +102,19 @@ function jsServices() {
   })
 }
 
+function servicesTextAnimation() {
+  gsap.from(".page2 h1", {
+    scrollTrigger:{
+      trigger: ".page2 h1",
+      start: "top 90%"
+    },
+    y: -100,
+    opacity: 0,
+    delay: 0.5,
+    duration: 1,
+  })
+}
+
 //caling the func
 firstanimationoftheloafingpage()
 mainTextAnimationOnPage1()
@@ -113,3 +126,4 @@ navbarPart2Animation()
 htmlServices()
 cssServices()
 jsServices()
+servicesTextAnimation()
