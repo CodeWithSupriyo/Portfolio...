@@ -1,6 +1,6 @@
 # Portfolio
 
-In this portfolio you can check out my profile... It uses HTML5 CSS3 and a JS library called GSAP to make those loading animations. I have talked about my work (landing page), skills(page 2), services( page 3), contact (last page). Be sure to check my portfolio website with the given link:-  
+In this portfolio you can check out my profile... It uses HTML5 CSS3 and a JS library called GSAP to make those loading animations. I have talked about my work (landing page), skills(page 2), services( page 3), expample projects (page4) contact (last page). Be sure to check my portfolio website with the given link:-  
 https://portfolio-supriyo-web-dev.netlify.app/      you can check my youtube channel... 
 
 ## Color Reference
@@ -32,5 +32,5 @@ you can give a star for this work for my motivation...
 
 ## Support
 
-For support, you can join my youtube channel.
+For support, you can join my youtube channel and also by giving me a star on this repo.
 
