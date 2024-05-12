@@ -251,7 +251,7 @@ img{
 }
 
 .page2{
-  height: 100vh;
+  height: 150vh;
   width: 100%;
 }
 
@@ -339,6 +339,66 @@ img{
   justify-content: center;
   align-items: center;
 }
+
+.page3{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 10;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+}
+
+.main-text-in-page3 {
+  display: flex;
+  font-weight: 700;
+  font-size: 90px;
+  z-index: 100;
+}
+
+.skills-display-container{
+  width: 25em;
+  height: 5em;
+  background-color: #C6ACAB;
+  margin-top: 10vh;
+  margin-right: 20em;
+  border: none;
+  border-radius: 20px;
+  padding: 2em;
+  color: #ED6915;
+}
+
+.text-in-container-HTML {
+  font-size: 40px;
+}
+
+.skill-display-container {
+  width: 23em;
+  height: 1em;
+  background-color: #ffffff;
+  border-radius: 50px;
+  border: none;
+  margin-top: 1em;
+}
+
+
+.main-skill-display {
+  background-color: #ED6915;
+  width: 22em;
+  height: 1em;
+  border-radius: 50px;
+  animation: skillsProgressAnimation 5s;
+}
+@keyframes skillsProgressAnimation {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 22em;
+  }
+}
+
 @media (max-width:600px) {
   .page1{
     display: normal;

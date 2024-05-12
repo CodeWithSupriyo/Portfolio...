@@ -115,6 +115,14 @@ function servicesTextAnimation() {
   })
 }
 
+function skillsLoadingAnimaionDisplay() {
+  gsap.from(".main-skill-display", {
+    scrollTrigger: ".main-skill-display",
+    delay: 1,
+    duration: 2,
+  })
+}
+
 //caling the func
 firstanimationoftheloafingpage()
 mainTextAnimationOnPage1()
@@ -127,3 +135,4 @@ htmlServices()
 cssServices()
 jsServices()
 servicesTextAnimation()
+skillsLoadingAnimaionDisplay()
