@@ -347,7 +347,7 @@ img{
   z-index: 10;
   align-items: center;
   width: 100%;
-  height: 50vh;
+  height: 100vh;
 }
 
 .main-text-in-page3 {
@@ -362,7 +362,6 @@ img{
   height: 5em;
   background-color: #C6ACAB;
   margin-top: 10vh;
-  margin-right: 20em;
   border: none;
   border-radius: 20px;
   padding: 2em;
@@ -398,6 +397,132 @@ img{
     width: 22em;
   }
 }
+
+.text-of-skill-HTML {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.main-text-of-skills-HTML {
+  color: #FF5100;
+  font-size: 60px;
+}
+
+.para-text-of-skills-HTML {
+  font-size: 30px;
+  margin-top: 0.5em;
+}
+
+.text-in-container-CSS {
+  font-size: 40px;
+}
+
+.skills-display-container-CSS{
+  width: 25em;
+  height: 5em;
+  background-color: #C6ACAB;
+  margin-top: 10vh;
+  border: none;
+  border-radius: 20px;
+  padding: 2em;
+  color: #156DED;
+}
+
+.text-in-container-CSS {
+  font-size: 40px;
+}
+
+.main-skill-display-CSS {
+  background-color: #156DED;
+  width: 18em;
+  height: 1em;
+  border-radius: 50px;
+  animation: skillsProgressAnimation2 5s;
+}
+@keyframes skillsProgressAnimation2 {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 18em;
+  }
+}
+
+.main-text-of-skills-CSS {
+  color: #4E96FF;
+  font-size: 60px;
+}
+
+.text-of-skill-CSS {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.para-text-of-skills-CSS {
+  font-size: 30px;
+  margin-top: 0.5em;
+}
+
+
+.text-in-container-JS {
+  font-size: 40px;
+}
+
+.skills-display-container-JS{
+  width: 25em;
+  height: 5em;
+  background-color: #C6ACAB;
+  margin-top: 10vh;
+  border: none;
+  border-radius: 20px;
+  padding: 2em;
+  color: #F0FF01;
+}
+
+.text-in-container-JS {
+  font-size: 40px;
+}
+
+.main-skill-display-JS {
+  background-color: #F0FF01;
+  width: 7em;
+  height: 1em;
+  border-radius: 50px;
+  animation: skillsProgressAnimation3 5s;
+}
+@keyframes skillsProgressAnimation3 {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 7em;
+  }
+}
+
+.main-text-of-skills-JS {
+  color: #FFB201;
+  font-size: 60px;
+}
+
+.text-of-skill-JS {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.para-text-of-skills-JS {
+  font-size: 30px;
+  margin-top: 0.5em;
+}
+
 
 @media (max-width:600px) {
   .page1{

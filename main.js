@@ -123,6 +123,36 @@ function skillsLoadingAnimaionDisplay() {
   })
 }
 
+function skillsHTMLmainTextLoader() {
+  gsap.from(".text-of-skill-HTML", {
+    scrollTrigger: ".text-of-skill-HTML",
+    opacity: 0,
+    y: 100,
+    delay: 1,
+    duration: 2,
+  })
+}
+
+function skillsCSSmainTextLoader() {
+  gsap.from(".text-of-skill-CSS", {
+    scrollTrigger: ".text-of-skill-CSS",
+    opacity: 0,
+    y: 100,
+    delay: 1,
+    duration: 2,
+  })
+}
+
+function skillsJSmainTextLoader() {
+  gsap.from(".text-of-skill-JS", {
+    scrollTrigger: ".text-of-skill-JS",
+    opacity: 0,
+    y: 100,
+    delay: 1,
+    duration: 2,
+  })
+}
+
 //caling the func
 firstanimationoftheloafingpage()
 mainTextAnimationOnPage1()
@@ -136,3 +166,6 @@ cssServices()
 jsServices()
 servicesTextAnimation()
 skillsLoadingAnimaionDisplay()
+skillsHTMLmainTextLoader()
+skillsJSmainTextLoader()
+skillsCSSmainTextLoader()
