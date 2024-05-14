@@ -523,6 +523,30 @@ img{
   margin-top: 0.5em;
 }
 
+.svg-transtion {
+  aspect-ratio: 900/300;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.layer3{
+  background-image: url('/svgTransitionFromSkillsToExampleProjects.svg')
+}
+
+.page4 {
+  background-color: #6637C2;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+}
+
+
 
 @media (max-width:600px) {
   .page1{
