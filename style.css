@@ -417,28 +417,29 @@ img{
 }
 
 .text-in-container-CSS {
-  font-size: 40px;
+  font-size: 5vw;
 }
 
 .skills-display-container-CSS{
-  width: 25em;
-  height: 5em;
+  width: 42vw;
+  height: 5vh;
   background-color: #C6ACAB;
   margin-top: 10vh;
   border: none;
   border-radius: 20px;
   padding: 2em;
   color: #156DED;
+  margin-left: 15vw;
 }
 
 .text-in-container-CSS {
-  font-size: 40px;
+  font-size: 5vw;
 }
 
 .main-skill-display-CSS {
   background-color: #156DED;
-  width: 18em;
-  height: 1em;
+  width: 27vw;
+  height: 1vh;
   border-radius: 50px;
   animation: skillsProgressAnimation2 5s;
 }
@@ -447,13 +448,13 @@ img{
     width: 0%;
   }
   to{
-    width: 18em;
+    width: 27vw;
   }
 }
 
 .main-text-of-skills-CSS {
   color: #4E96FF;
-  font-size: 60px;
+  font-size: 10vw;
 }
 
 .text-of-skill-CSS {
@@ -465,18 +466,18 @@ img{
 }
 
 .para-text-of-skills-CSS {
-  font-size: 30px;
+  font-size: 5vw;
   margin-top: 0.5em;
 }
 
 
 .text-in-container-JS {
-  font-size: 40px;
+  font-size: 5vw;
 }
 
 .skills-display-container-JS{
-  width: 25em;
-  height: 5em;
+  width: 42vw;
+  height: 5vh;
   background-color: #C6ACAB;
   margin-top: 10vh;
   border: none;
@@ -486,13 +487,13 @@ img{
 }
 
 .text-in-container-JS {
-  font-size: 40px;
+  font-size: 5vw;
 }
 
 .main-skill-display-JS {
   background-color: #F0FF01;
-  width: 7em;
-  height: 1em;
+  width: 10vw;
+  height: 1vh;
   border-radius: 50px;
   animation: skillsProgressAnimation3 5s;
 }
@@ -501,13 +502,13 @@ img{
     width: 0%;
   }
   to{
-    width: 7em;
+    width: 10vw;
   }
 }
 
 .main-text-of-skills-JS {
   color: #FFB201;
-  font-size: 60px;
+  font-size:10vw;
 }
 
 .text-of-skill-JS {
@@ -519,7 +520,7 @@ img{
 }
 
 .para-text-of-skills-JS {
-  font-size: 30px;
+  font-size: 5vw;
   margin-top: 0.5em;
 }
 
@@ -651,9 +652,6 @@ body::after{
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-
-
-
 @media (max-width:600px) {
   .page1{
     display: normal;
@@ -768,5 +766,19 @@ body::after{
   }
   .skills-display-container {
     margin-left: 11vw;
+  }
+  .skills-display-container-CSS {
+    margin-left: 11vw;
+  }
+  .skills-display-container-CSS {
+    margin-left: 7vw;
+  }
+  
+  body::before {
+    display: none;
+  }
+  
+  body::after {
+    display: none;
   }
 }
