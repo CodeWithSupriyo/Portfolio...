@@ -251,7 +251,7 @@ img{
 }
 
 .page2{
-  height: 150vh;
+  height: 160vh;
   width: 100%;
 }
 
@@ -270,7 +270,7 @@ img{
 .HTML-services{
   color: #fff;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 5vw;
   text-align: center;
   letter-spacing: 2px;
 }
@@ -290,7 +290,7 @@ img{
 .CSS-services {
   color: #fff;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 5vw;
   text-align: center;
   letter-spacing: 2px;
 }
@@ -327,7 +327,7 @@ img{
   text-transform: uppercase;
   display: flex;
   justify-content: center;
-  font-size: 100px
+  font-size: 20vw
 }
 .transition-svg1 {
   aspect-ratio: 900/600;
@@ -347,34 +347,35 @@ img{
   z-index: 10;
   align-items: center;
   width: 100%;
-  height: 150em;
+  height: 150vh;
+  margin-top: 6vh;
 }
 
 .main-text-in-page3 {
   display: flex;
   font-weight: 700;
-  font-size: 90px;
-  z-index: 100;
+  font-size: 20vw;
 }
 
 .skills-display-container{
-  width: 25em;
-  height: 5em;
+  width: 42vw;
+  height: 5vh;
   background-color: #C6ACAB;
   margin-top: 10vh;
   border: none;
   border-radius: 20px;
   padding: 2em;
   color: #ED6915;
+  margin-left: 15vw;
 }
 
 .text-in-container-HTML {
-  font-size: 40px;
+  font-size: 5vw;
 }
 
 .skill-display-container {
-  width: 23em;
-  height: 1em;
+  width: 40vw;
+  height: 1vh;
   background-color: #ffffff;
   border-radius: 50px;
   border: none;
@@ -384,8 +385,8 @@ img{
 
 .main-skill-display {
   background-color: #ED6915;
-  width: 22em;
-  height: 1em;
+  width: 37vw;
+  height: 1vh;
   border-radius: 50px;
   animation: skillsProgressAnimation 5s;
 }
@@ -394,9 +395,8 @@ img{
     width: 0%;
   }
   to{
-    width: 22em;
-  }
-}
+    width: 37vw;
+  }}
 
 .text-of-skill-HTML {
   display: flex;
@@ -408,11 +408,11 @@ img{
 
 .main-text-of-skills-HTML {
   color: #FF5100;
-  font-size: 60px;
+  font-size: 10vw;
 }
 
 .para-text-of-skills-HTML {
-  font-size: 30px;
+  font-size: 5vw;
   margin-top: 0.5em;
 }
 
@@ -603,7 +603,7 @@ body::after{
   justify-content: center;
   align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  boder-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(10px);
 }
 
@@ -752,5 +752,21 @@ body::after{
   
   .page2{
     height: 165vh;
+  }
+  
+  .HTML-services {
+    font-size: 6vw;
+  }
+  .CSS-services {
+    font-size: 6vw;
+  }
+  .JS-services {
+    font-size: 6vw; 
+  }
+  .page3 {
+    margin-top: 60vh;
+  }
+  .skills-display-container {
+    margin-left: 11vw;
   }
 }
